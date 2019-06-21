@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <!-- esta meta indica que utiliza el teclado extendido, es decir
+  que reconoce caráteres especiales -->
+  <meta charset="UTF-8">
+  <!-- esta meta indica autor -->
+  <meta name="Autor" content="Proteco">
+  <!-- esta meta Indica que el sitio es responsivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- esta meta sirve para las palabras clave. Es conveniente poner la mayor parte de keywords  -->
+  <meta name="keywords" content="hamburguesa,sur,CDMX,vegano">
+  <!-- esta meta es para la descripción de la página. Lo recomiendo google -->
+  <meta name="description" content="Las mejores hamburguesas al sur de la ciudad">
+  <title>McDonalds</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper grey lighten-1">
+              <a href="#!" class="brand-logo"><img src="img/mcdonalds-logo.png" alt=""></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Nuestro menú</a></li>
+                <li><a href="nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav grey lighten-1" id="mobile-demo">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Nuestro menú</a></li>
+        <li><a href="nosotros.html">Acerca de nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</header>
+<main class="container">
+    <h3>ACERCA DE NOSOTROS</h3>
+    <!-- collapsible -->
+    <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">add_shopping_cart</i>First</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+      <!-- autocomplite -->
+      <div class="row">
+          <div class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">textsms</i>
+                <input type="text" id="autocomplete-input" class="autocomplete">
+                <label for="autocomplete-input">Autocomplete</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+
+</main>
+
+
+
+
+<footer class="page-footer grey lighten-1">
+  <div class="footer-copyright">
+    <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+</div>
+</footer>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</html>
